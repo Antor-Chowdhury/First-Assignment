@@ -76,3 +76,64 @@ nav button span{
     border: none;
     border-radius: 10px;
 }
+
+/* Action Section Styles */
+.action{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    max-height: 328px;
+    max-width: 1140px;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.main-action-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+
+.action-content{
+    /* border: 2px solid tomato; */
+    text-align: left;
+    width: 517px;
+    height: 203px;
+}
+
+.action-content h3{
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-content p{
+    font-family: "Railway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-button{
+    font-family: "Railway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 229px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+}
+
+.action-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 40px;
+    display: block
+}
