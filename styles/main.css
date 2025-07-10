@@ -247,7 +247,6 @@ nav button span{
     border-radius: 5px;
     margin: 0;
     border-radius: 10px;
-    color: #FFFFFF;
     border: 1px solid gray;
 }
 
@@ -256,7 +255,6 @@ nav button span{
     width: 490px;
     height: 135px;
     border-radius: 10px;
-    color: #FFFFFF;
 }
 .form-content input[placeholder]{
     padding-left: 15px;
