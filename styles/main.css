@@ -92,6 +92,7 @@ nav button{
 }
 
 /* Action Section Styles */
+
 .action{
     /* border: 2px solid red; */
     margin: 0 auto;
@@ -285,7 +286,57 @@ nav button{
     color: #B3B3B3;
 }
 
-/* Touch section styles */
+/* Focus section styles */
+
+.focus-section{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 71px;
+    width: 1140px;
+    height: 696.77px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-bottom: 92px;
+}
+
+.focus-section h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+}
+
+.focus-section p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -20px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.focus-section button{
+    display:block;
+    width: 195px;
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    margin:16px 472.5px 20px;
+}
+
+.focus-section img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+
+/* Get in touch section styles */
 
 .touch-section{
     /* border: 2px solid tomato; */
@@ -440,5 +491,3 @@ nav button{
 .footer-copyright{
     margin-top: 100px;
 }
-
-
