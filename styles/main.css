@@ -67,7 +67,7 @@ nav button span{
     height: 152px;
 }
 .hero-button{
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 16px;
     width: 174px;
@@ -105,14 +105,14 @@ nav button span{
 .action-content h3{
     margin-top: 0;
     margin-bottom: 23px;
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 42px;
     color: #252432;
 }
 
 .action-content p{
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #252432;
@@ -120,7 +120,7 @@ nav button span{
 }
 
 .action-button{
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 16px;
     width: 229px;
@@ -140,6 +140,7 @@ nav button span{
 }
 
 /* Productive user section styles */
+
 .productive-section{
     /* border: 2px solid tomato; */
     max-width: 1140px;
@@ -184,6 +185,93 @@ nav button span{
     margin: 0;
 }
 
+/* User Feedback section styles */
+
+.user-feedback-section{
+    /* border: 2px solid blue; */
+    width: 1140px;
+    height: 342px;
+    margin: 0 auto;
+    margin-bottom: 137px;
+
+}
+
+.user-section h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.user-banner-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    border: 1px solid #F2EDED;
+    background-color: #FFFFFF;
+    width: 366px;
+    height: 246px;
+    border-radius: 14px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.banner h4{
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+
+.banner p{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -10px;
+    color: #1E1E1E;
+}
+
+.banner li{
+    display: inline;
+    padding-left: -20px;
+}
+
+.banner-content{
+    margin-bottom: 24px;
+}
+
+.user-review{
+    display: flex;
+}
+.user-review img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.user-review-content h5,p{
+    margin: 0;
+    padding: 0;
+}
+.user-review-content h5{
+    margin-left: 12px;
+    margin-top: 7px;
+    color: #757575;
+    font-size: 14px;
+}
+.user-review-content p{
+    margin-left: 12px;
+    margin-top: 0px;
+    color: #B3B3B3;
+}
+
 /* Touch section styles */
 
 .touch-section{
@@ -204,7 +292,7 @@ nav button span{
 
 .touch-content h2{
     /* border: 2px solid red; */
-    font-family: "Railway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: bold;
     font-size: 97px;
     width: 528px;
@@ -267,7 +355,7 @@ nav button span{
 }
 
 .touch-button{
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 13px;
     padding: 19px 201px;
@@ -307,7 +395,7 @@ nav button span{
 }
 
 .footer-content p{
-    font-family: "Railway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #8987A1;
@@ -330,7 +418,7 @@ nav button span{
 .footer-anchor-tag li a{
     text-decoration: none;
     color: #8987A1;
-    font-family: "Railway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 500;
     font-size: 16px;
     padding: 0 12px;
@@ -339,3 +427,6 @@ nav button span{
 .footer-copyright{
     margin-top: 100px;
 }
+
+
+
