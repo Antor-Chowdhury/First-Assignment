@@ -4,6 +4,8 @@ body{
     background-color: #f5f8ff;
 }
 
+/* Header Background Image styles */
+
 header{
     min-width: 1440px;
     height: 698px;
@@ -11,7 +13,22 @@ header{
     background-image: url(../Assets/Hero-bg.png);
 }
 
+/* Button Animation Styles */
+
+.btn-animation{
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1);
+
+}
+.btn-animation:hover{
+  background-color: yellow;
+  transform: scale(1.05);
+  color: #252432;
+}
+
 /* Nav Section Styles */
+
 nav{
     max-width: 1140px;
     height: 151px;
@@ -37,14 +54,10 @@ nav button{
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
-}
-
-nav button span{
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 16px;
-    height: 24px;
-    width: 60px;
     display: block;
     color: white;
 }
@@ -427,6 +440,5 @@ nav button span{
 .footer-copyright{
     margin-top: 100px;
 }
-
 
 
