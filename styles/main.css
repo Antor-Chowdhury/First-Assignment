@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #f5f8ff;
 }
 
 header{
@@ -186,8 +187,8 @@ nav button span{
 /* Touch section styles */
 
 .touch-section{
-    margin-bottom: 130px;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* border: 2px solid tomato; */
+    margin-bottom: 14px;
 }
 
 .touch-main{
@@ -195,7 +196,6 @@ nav button span{
     width: 1140px;
     height: 642px;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.5);
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -277,4 +277,65 @@ nav button span{
     color: #FFFFFF;
     background-color: #4E47FF;
     border: none;
+}
+
+/* Footer section styles */
+
+.footer-class{
+    border: 2px solid transparent;
+    min-width: 1440px;
+    height: 428px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-content{
+    /* border: 2px solid blue; */
+    width: 531px;
+    height: 221px;
+    margin: 0 auto;
+    margin-top: 104px;
+}
+
+.footer-content h2{
+    font-family: "Inter", sans-serif;
+    font-weight: black ;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    color: #4E47FF;
+}
+
+.footer-content p{
+    font-family: "Railway",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.footer-anchor-tag{
+    min-width: 401px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-anchor-tag li{
+    display: inline;
+    list-style: none;
+    gap:40px;
+}
+
+.footer-anchor-tag li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: "Railway",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+.footer-copyright{
+    margin-top: 100px;
 }
